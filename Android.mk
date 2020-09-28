@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter olive olivelite pine,$(TARGET_DEVICE)),)
+ifneq ($(filter olive olivelite olivewood pine,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
